@@ -1,1 +1,12 @@
-Aqui voy a consignar los codigos para usar git
+Aqui voy a consignar los codigos para usar git.
+
+git init // crea un reposirotio local
+git config user.name "Nombre usuario" //personaliza el nombre de usuario
+git config user.email "Email usuario" // personaliza el email de usuario
+git remote add origin "https..." // muestra el repositorio remoto creado en GitHub
+git add . // agrega todos los archivos con cambios pendientes
+git commit -m "mensaje" // le agrega un mensaje de cambio a los archivos agregados
+git push origin master // envia la rama master al repositorio remoto
+git status // muestra el estado en el que se encuentran los archivos
+git pull // trae todas las actualizaciones del repositorio remoto
+git clone "url" // duplica un repositorio existente en GitHub
